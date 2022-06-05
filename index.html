@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css custom file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Css bootstrap file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>1D Limited CD</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="header_custom">
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none text-light">
+                    <img class="bi me-2" width="40" height="32" src="img/1d_icon.png">
+                    <span class="fs-4 one_direction">One Direction</span>
+                </a>
+
+                <ul class="nav nav-pills contrail">
+                    <li class="nav-item"><a href="#" class="nav-link link-light">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-light" data-bs-toggle="modal"
+                            data-bs-target="#lojasModal">Lojas credenciadas</a></li>
+                    <li class="nav-item"><a href="meninos.html" class="nav-link link-light">Os cantores</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-light" data-bs-toggle="modal"
+                            data-bs-target="#socialModal">Social</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-light" data-bs-toggle="modal"
+                            data-bs-target="#contatoModal">Contato</a></li>
+                </ul>
+
+                <!-- Modal Contato -->
+                <div class="modal fade" id="contatoModal" tabindex="-1" aria-labelledby="contatoModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title contrail" id="contatoModalLabel">SAQ - Atendimento ao cliente
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 class="contrail"> Telefones: </h5>
+                                <div> São Paulo - (11) XXXXX - XXXX </div>
+                                <div> Demais localidades - 0800 XXX XXX </div>
+                                <div class="mb-4"></div>
+                                <h5 class="contrail"> E-mail: </h5>
+                                <div> contato@bandamorta_oficial.com.br </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Redes Sociais -->
+                <div class="modal fade" id="socialModal" tabindex="-1" aria-labelledby="socialModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title contrail" id="socialModalLabel">Sigam os meninos no Instagram!
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 class="contrail"><a href="https://www.instagram.com/harrystyles"
+                                        class="nav-link link-dark" target="_blank"> > Harry Styles </a></h5>
+                                <h5 class="contrail"><a href="https://www.instagram.com/louist91"
+                                        class="nav-link link-dark" target="_blank"> > Louis Tomlinson </a></h5>
+                                <h5 class="contrail"><a href="https://www.instagram.com/liampayne"
+                                        class="nav-link link-dark" target="_blank"> > Liam Payne </a></h5>
+                                <h5 class="contrail"><a href="https://www.instagram.com/zayn" class="nav-link link-dark"
+                                        target="_blank"> > Zayn Malik </a></h5>
+                                <h5 class="contrail"><a href="https://www.instagram.com/niallhoran"
+                                        class="nav-link link-dark" target="_blank"> > Niall Horan </a></h5>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Lojas Credenciadas -->
+                <div class="modal fade" id="lojasModal" tabindex="-1" aria-labelledby="lojasModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title contrail" id="lojasModalLabel">Nossas lojas credenciadas!
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h3 class="contrail text-danger text-center"> Sorry :( </h3>
+                                <h4 class="contrail text-danger text-center"> Não possuimos lojas credenciadas por
+                                    enquanto, somente nosso site! </h4>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <!-- End Navbar-->
+    <!-- Begin the body -->
+    <h1 class="chamada"> Edição limitada do CD gravado com os singles de todos os meninos da <div
+            class="one_direction text-danger">
+            boyband mais amada do mundo, </div> agora no Brasil!</h1>
+    <div class="container-fluid">
+        <div class="container bg-body">
+            <div class="row">
+                <div class="col-sm-12 col-md-5 texto d-flex flex-column justify-content-center">
+                    <p class="conteudo"> Garanta já seu CD na pré-venda! </p>
+                    <!-- Trigger button -->
+                    <button type="button" class="btn btn-danger contrail" data-bs-toggle="modal"
+                        data-bs-target="#modalCompra">
+                        Comprar na pré-venda! </button>
+                    <div class="mb-4"></div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalCompra" tabindex="-1" aria-labelledby="modalCompraLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title conteudo" id="modalCompraLabel">Compre seu CD aqui!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="modalCompra"> Infelizmente a pré-venda ainda não começou!</p>
+                                    <p class="modalCompra"> Ela começa daqui a: </p>
+                                    <div id="contador"></div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-7">
+                    <img class="mx-auto d-block" src="img/capa_cd.jpg" width="450px" height="450px">
+                </div>
+            </div>
+            <div class="mb-4"></div>
+        </div>
+    </div>
+    <!-- End Body -->
+    <!-- Start Testimonials -->
+    <section class="testimonials">
+        <div class="row d-flex justify-content-center" style="margin-right: 0px;">
+            <div class="col-md-10 col-xl-8 text-center">
+                <h3 class="mb-4 one_direction">Enquanto isso, o que será que estao falando do album?</h3>
+                <p class="mb-4 pb-2 mb-md-5 pb-md-0 contrail">
+                    Veja a opnião de alguns internautas sobre o novo CD da ex One Direction!
+                </p>
+            </div>
+        </div>
+
+        <!-- First -->
+        <div class="row text-center" style="margin-right: 0px;">
+            <div class="col-md-4 mb-5 mb-md-0">
+                <div class="d-flex justify-content-center mb-4">
+                    <img src="img/lux_icon.jpg" class="rounded-circle shadow-1-strong" width="150" height="150" />
+                </div>
+                <h5 class="mb-3 one_direction">Lux, a dama de luz</h5>
+                <h6 class="text-light mb-3 contrail">Harry's Stan</h6>
+                <p class="px-xl-3 contrail">
+                    <i class="fas fa-quote-left pe-2"></i> Particularmente, estou muito animada para esse lançamento.
+                    Espero isso desde 2015!
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center mb-0">
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star-half-alt fa-sm text-warning"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Second -->
+            <div class="col-md-4 mb-5 mb-md-0">
+                <div class="d-flex justify-content-center mb-4">
+                    <img src="img/ez_icon.png" class="rounded-circle shadow-1-strong" width="150" height="150" />
+                </div>
+                <h5 class="mb-3 one_direction">Ezreal, o explorador pródigo</h5>
+                <h6 class="text-light mb-3 contrail">Zayn's Stan</h6>
+                <p class="px-xl-3 contrail">
+                    <i class="fas fa-quote-left pe-2"></i>Tenho certeza que as solos do Zayn serão as melhores do CD.
+                    Afinal assim como eu, ele é o melhor.
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center mb-0">
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Third -->
+            <div class="col-md-4 mb-0">
+                <div class="d-flex justify-content-center mb-4">
+                    <img src="img/kaisa_icon.jpg" class="rounded-circle shadow-1-strong" width="150" height="150" />
+                </div>
+                <h5 class="mb-3 one_direction">Kai'sa, a filha do vazio</h5>
+                <h6 class="text-light mb-3 contrail">Louis's Stan</h6>
+                <p class="px-xl-3 contrail">
+                    <i class="fas fa-quote-left pe-2"></i>Louis vai arrasar, assim como eu ele teve que lutar muito para
+                    sobreviver, por isso estou muito ansiosa pelo CD. Sua participação será a melhor!
+                </p>
+                <ul class="list-unstyled d-flex justify-content-center mb-0">
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                    <li>
+                        <i class="fas fa-star fa-sm text-warning"></i>
+                    </li>
+                    <li>
+                        <i class="far fa-star fa-sm text-warning"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- End testimonials -->
+
+    <!-- Start footer -->
+    <footer class="d-flex justify-content-center align-content-center text-center">
+        <div> Desenvolvido por Guilherme Nicoleti. Apenas para fins acadêmicos.</div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Script bootstrap file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom script file -->
+    <script src="script.js"></script>
+</body>
+
+</html>

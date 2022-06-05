@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css custom file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Css bootstrap file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>1D Limited CD</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="header_custom">
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+                <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none text-light">
+                    <img class="bi me-2" width="40" height="32" src="img/1d_icon.png">
+                    <span class="fs-4 one_direction">One Direction</span>
+                </a>
+
+                <ul class="nav nav-pills contrail">
+                    <li class="nav-item"><a href="index.html" class="nav-link link-light">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-light" data-bs-toggle="modal"
+                            data-bs-target="#lojasModal">Lojas credenciadas</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-light">Os cantores</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-light" data-bs-toggle="modal"
+                            data-bs-target="#socialModal">Social</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link link-light" data-bs-toggle="modal"
+                            data-bs-target="#contatoModal">Contato</a></li>
+                </ul>
+
+                <!-- Modal Contato -->
+                <div class="modal fade" id="contatoModal" tabindex="-1" aria-labelledby="contatoModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title contrail" id="contatoModalLabel">SAQ - Atendimento ao cliente
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 class="contrail"> Telefones: </h5>
+                                <div> São Paulo - (11) XXXXX - XXXX </div>
+                                <div> Demais localidades - 0800 XXX XXX </div>
+                                <div class="mb-4"></div>
+                                <h5 class="contrail"> E-mail: </h5>
+                                <div> contato@bandamorta_oficial.com.br </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Redes Sociais -->
+                <div class="modal fade" id="socialModal" tabindex="-1" aria-labelledby="socialModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title contrail" id="socialModalLabel">Sigam os meninos no Instagram!
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h5 class="contrail"><a href="https://www.instagram.com/harrystyles"
+                                        class="nav-link link-dark" target="_blank"> > Harry Styles </a></h5>
+                                <h5 class="contrail"><a href="https://www.instagram.com/louist91"
+                                        class="nav-link link-dark" target="_blank"> > Louis Tomlinson </a></h5>
+                                <h5 class="contrail"><a href="https://www.instagram.com/liampayne"
+                                        class="nav-link link-dark" target="_blank"> > Liam Payne </a></h5>
+                                <h5 class="contrail"><a href="https://www.instagram.com/zayn" class="nav-link link-dark"
+                                        target="_blank"> > Zayn Malik </a></h5>
+                                <h5 class="contrail"><a href="https://www.instagram.com/niallhoran"
+                                        class="nav-link link-dark" target="_blank"> > Niall Horan </a></h5>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Lojas Credenciadas -->
+                <div class="modal fade" id="lojasModal" tabindex="-1" aria-labelledby="lojasModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title contrail" id="lojasModalLabel">Nossas lojas credenciadas!
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h3 class="contrail text-danger text-center"> Sorry :( </h3>
+                                <h4 class="contrail text-danger text-center"> Não possuimos lojas credenciadas por
+                                    enquanto, somente nosso site! </h4>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <!-- End Navbar-->
+    <!-- Begin the body -->
+    <div class="container">
+        <h1 class="chamada"> Vamos conhecer um pouco dos nossos queridos? </h1>
+        <div class="row">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/capa_harry.jpg" class="img-fluid rounded-start"
+                            alt="Harry Styles na capa do album fine line">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title one_direction"> Harry Styles </h2>
+                            <p class="card-text contrail">Harry Edward Styles (Redditch, 1 de fevereiro de 1994) é um
+                                cantor, compositor e ator inglês. Sua carreira musical começou em 2010 como um
+                                concorrente solo na série de competição musical britânica The X Factor. Após sua
+                                eliminação no início, ele foi trazido de volta para se juntar à boy band One Direction,
+                                que passou a se tornar um das boy bands recordistas em vendas.</p>
+                            <p class="card-text contrail">O segundo álbum de Styles, Fine Line (2019), estreou no topo
+                                da Billboard 200 com a maior estreia de vendas de um artista masculino inglês nos EUA, e
+                                foi listado entre os "500 Maiores Álbuns de Todos os Tempos" pela Rolling Stone em 2020.
+                                Seu quarto single, "Watermelon Sugar", alcançou o topo da Billboard Hot 100 dos EUA.</p>
+
+                            <p class="card-text contrail">Ao longo da sua carreira, Styles recebeu vários prémios,
+                                incluindo um Grammy, um Brit Award, um AMA, dois ARIA e um Billboard Music Award.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/capa_louis.jpg" class="img-fluid rounded-start"
+                            alt="Louis Tomlinson na capa do album Walls">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title one_direction">Louis Tomlinson</h2>
+                            <p class="card-text contrail">Louis William Tomlinson (Doncaster, 24 de dezembro de 1991) é
+                                um cantor e compositor britânico. Tomlinson começou sua carreira como ator,
+                                inicialmente, aparecendo no drama da ITV, Fat Friends como um personagem extra, ele
+                                também apareceu nos filmes de drama If I Had You da ITV1 e na série Waterloo Road da
+                                BBC. Em 2010, ele foi um dos membros fundadores da banda pop One Direction, que terminou
+                                em terceiro lugar no reality The X Factor.</p>
+                            <p class="card-text contrail">Em julho de 2017, Tomlinson lançou o single "Back to You", com
+                                Bebe Rexha e Digital Farm Animals, precedendo seu primeiro álbum de estúdio através de
+                                sua própria gravadora, Triple String. A música chegou ao número 8 no UK Singles Chart e
+                                ao número 40 no Billboard Hot 100. Mais tarde, foi anunciado que Tomlinson havia
+                                assinado um contrato de gravação com a Epic Records. Em uma entrevista à BBC Music,
+                                Tomlinson disse liricamente que seu primeiro álbum é inspirado no Arctic Monkeys and
+                                Oasis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/capa_zayn.jpg" class="img-fluid rounded-start"
+                            alt="Zayn Malik na capa do album Mind of Mine">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title one_direction">Zayn Malik</h2>
+                            <p class="card-text contrail">Zain Javadd Malik (Bradford, 12 de janeiro de 1993),
+                                profissionalmente conhecido pelo monónimo Zayn, é um cantor e compositor britânico. Ele
+                                ganhou proeminência no mercado musical após ter integrado a boy band One Direction com
+                                outros quatro cantores, que conheceu quando competia no programa de televisão The X
+                                Factor, em 2010. Embora tenham terminado em terceiro lugar, o grupo prontamente assinou
+                                um contrato discográfico com a Sony BMG Music Entertainment e a sua filial britânica
+                                Syco Records.</p>
+                            <p class="card-text contrail">Após lançar vários singles, entre abril de 2017 e novembro de
+                                2018, Zayn lançou o seu segundo álbum, "Icarus Falls", em dezembro de 2018.</p>
+
+                            <p class="card-text contrail">Malik é muçulmano, tendo sofrido bastante discriminação em
+                                redes sociais pela sua religião, inclusive por personalidades mediáticas, o que o levou
+                                a participar de uma campanha social sobre legislação antiterrorista. É conhecido pelo
+                                grande número de tatuagens no seu corpo, inclusive uma em que se lê "Zap!" no seu
+                                antebraço direito.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/capa_liam.jpg" class="img-fluid rounded-start"
+                            alt="Liam Payne na capa do album LP1">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title one_direction">Liam Payne</h2>
+                            <p class="card-text contrail">Liam James Payne (Wolverhampton, 29 de agosto de 1993) é um
+                                cantor, compositor e produtor musical inglês. Payne ganhou fama internacional como
+                                membro da boy band de pop rock britânica One Direction. Após a audição no The X Factor e
+                                ser aceito, Nicole Scherzinger juntou Liam com outros quatro competidores, para formar o
+                                grupo que mais tarde se tornou conhecido como One Direction. A criação do grupo
+                                tornou-se uma realidade e os cinco foram patrocinados por Simon Cowell. Eles chegaram a
+                                final do programa e ficaram em terceiro lugar. Embora não tenham ganhado, Cowell pagou
+                                um contrato com a gravadora Syco.</p>
+                            <p class="card-text contrail">Em maio de 2017, Liam lançou o seu primeiro single a solo,
+                                "Strip That Down". O tema conta com a participação do rapper Quavo, do trio americano
+                                Migos. Em julho do mesmo ano, sai "Get Low", single do produtor russo-alemão Zedd em que
+                                Liam participa vocalmente.[</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/capa_niall.jpg" class="img-fluid rounded-start"
+                            alt="Niall Horan na capa do album HeartBreak Weather">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title one_direction">Niall Horan</h2>
+                            <p class="card-text contrail">Niall James Horan (Mullingar, 13 de setembro de 1993), mais
+                                conhecido como Niall Horan é um cantor e compositor irlandês. Ele ficou conhecido como
+                                membro da boy band One Direction. Em 2010, Horan fez o teste como competidor solo na
+                                competição britânica The X Factor. Depois de serem eliminados como artistas solo, Horan,
+                                Zayn Malik, Liam Payne, Harry Styles e Louis Tomlinson foram reunidos em uma banda.</p>
+                            <p class="card-text contrail">Após o hiato da banda em 2016, Horan assinou um contrato como
+                                artista solo com a Capitol Records. Seus singles "This Town" e "Slow Hands" de seu
+                                primeiro álbum de estúdio, Flicker (2017) alcançaram o top 20 em vários países. O álbum
+                                estreou no número um na Irlanda e nos Estados Unidos, além de figurar entre os três
+                                primeiros na Austrália e no Reino Unido.</p>
+                            <p class="card-text contrail">Ele embarcou na turnê Flicker Sessions (2017) e na Flicker
+                                World Tour (2018) em suporte ao álbum. O segundo álbum de estúdio de Horan, Heartbreak
+                                Weather, foi lançado em 13 de março de 2020 e estreou no número quatro nos Estados
+                                Unidos e número um no Reino Unido, Irlanda e México.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start footer -->
+    <footer class="d-flex justify-content-center align-content-center text-center bg-danger text-light">
+        <div> Desenvolvido por Guilherme Nicoleti. Apenas para fins acadêmicos.</div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Script bootstrap file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom script file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
